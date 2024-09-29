@@ -95,7 +95,7 @@ BEGIN
             VALUE "InternalName", "order_manager" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "order_manager.exe" "\0"
-            VALUE "ProductName", "order_manager" "\0"
+            VALUE "ProductName", "Order Manager" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

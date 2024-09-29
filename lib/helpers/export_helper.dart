@@ -19,7 +19,9 @@ class ExportHelper {
         TextCellValue(row['format'] ?? ''),
       ]);
     }
-    
+
+    excel.delete('Sheet1');
+
     var directory = await getApplicationDocumentsDirectory();
     String filePath = '${directory.path}\\Relatório ${FormatHelper.formatTimeStamp(DateTime.now())}.xlsx';
 
@@ -29,5 +31,4 @@ class ExportHelper {
 
     return filePath;
   }
-
 }
